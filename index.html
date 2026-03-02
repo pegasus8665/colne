@@ -10,485 +10,277 @@
 
 <body>
 
+    <!-- Background Grid Lines -->
+    <div class="bg-grid">
+        <span></span><span></span><span></span><span></span>
+    </div>
+
     <!-- Header Section -->
-    <header class="header">
-        <div class="logo">Dubai Mortgages.</div>
-        <button class="menu-btn">Menu -> </button>
+    <header class="header" id="header">
+        <div class="logo">DUBAI MORTGAGES.</div>
+        <div class="menu-wrap">
+            <button class="menu-btn">MENU &mdash;</button>
+        </div>
     </header>
 
     <!-- Social Side Bar -->
     <div class="social-sidebar">
-        <span>Follow Us - In / Fb</span>
+        <span>Follow Us &mdash; In / Fb</span>
     </div>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-left">
-            <video autoplay loop muted playsinline src="long.mp4" class="hero-image"></video>
-        </div>
-        <div class="hero-right">
-            <div class="hero-content">
-                <p class="subtitle">EXPERT GUIDANCE. UNBEATABLE RATES.</p>
-                <h1 class="main-title">SECURE YOUR DREAM PROPERTY IN DUBAI WITH EASE.</h1>
+    <section class="hero-section container">
+        <div class="hero-inner">
+            <div class="hero-media">
+                <video autoplay loop muted playsinline src="long.mp4"></video>
             </div>
+            <div class="hero-content">
+                <p class="section-tag">EXPERT GUIDANCE. UNBEATABLE RATES.</p>
+                <h1 class="huge-heading">SECURE YOUR<br>DREAM PROPERTY<br>IN DUBAI WITH<br>EASE.</h1>
 
-            <div class="hero-newsletter">
-                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=600&auto=format&fit=crop"
-                    class="newsletter-image" alt="Luxury Interior">
-                <h3>Get weekly insights on Dubai real estate & mortgage rates</h3>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Email address">
-                    <button type="submit">SUBSCRIBE</button>
-                </form>
-                <label class="consent-label">
-                    <input type="checkbox">
-                    By sending this message, I agree that the data provided may be processed and used for the purpose of
-                    sending the newsletter. I may at any time revoke my consent. Data protection.
-                </label>
+                <!-- Notice: newsletter is moved down slightly or removed to match Demo 34 clean feel -->
             </div>
         </div>
     </section>
 
     <!-- Introduce / About Info Section -->
     <section class="intro-section">
-        <div class="intro-left">
-            <p class="section-tag">WE HELP TO ACHIEVE GOALS</p>
-            <h2>Dubai Mortgages is a leading advisory firm that partners with top UAE banks to secure the best financing
-                for your home or investment.</h2>
-            <div class="btn-group">
-                <a href="#" class="btn btn-dark">OUR SERVICES</a>
-                <a href="#" class="btn btn-ghost">GET PRE-APPROVED</a>
+        <div class="container intro-grid">
+            <div class="intro-text">
+                <p class="section-tag">WE HELP TO ACHIEVE GOALS</p>
+                <h2 class="heading-md">Dubai Mortgages is a leading advisory firm that partners with top UAE banks to
+                    secure the best financing for your home or investment.</h2>
+                <div class="intro-buttons">
+                    <a href="#" class="btn btn-dark">OUR SERVICES</a>
+                    <a href="#" class="btn btn-outline">GET PRE-APPROVED</a>
+                </div>
             </div>
-        </div>
-        <div class="intro-right">
-            <p>From the initial consultation, our team immerses itself in your financial goals – finding the right
-                mortgage structures that align with your property journey in the UAE.</p>
-            <p>We embrace the challenge of every unique profile, preparing distinct financing proposals that honor our
-                clients' vision, whether residents, non-residents, or corporate investors.</p>
+            <div class="intro-details">
+                <p>From the initial consultation, our team immerses itself in your financial goals – finding the right
+                    mortgage structures that align with your property journey in the UAE.</p>
+                <p>We embrace the challenge of every unique profile, preparing distinct financing proposals that honor
+                    our clients' vision, whether residents, non-residents, or corporate investors.</p>
+            </div>
         </div>
     </section>
 
     <!-- Works / Portfolio Section (Changed to Success Stories) -->
-    <section class="works-section">
+    <section class="works-section container">
         <div class="section-header">
-            <h2>Success Stories</h2>
-            <div class="stats">
-                <span>(342)</span>
-                <span>2015-2025</span>
-            </div>
-            <a href="#" class="btn btn-dark">VIEW ALL</a>
+            <h2 class="heading-sm">Success Stories</h2>
+            <div class="section-tag" style="margin-bottom:0;">(342) &mdash; 2015-2025</div>
         </div>
 
         <div class="works-grid">
-            <!-- Project 1 -->
-            <div class="work-card">
-                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop"
-                    class="project-img" alt="Luxury Palm Jumeirah Villa">
-                <h3>Luxury Palm Jumeirah Villa Financed for Non-Resident</h3>
-                <p class="project-meta">PALM JUMEIRAH • AED 12M MORTGAGE</p>
+            <div class="work-card large-span">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop"
+                    alt="Luxury Palm Jumeirah Villa">
+                <h3 class="heading-sm">Luxury Palm Jumeirah Villa Financed for Non-Resident</h3>
+                <p class="work-meta">PALM JUMEIRAH &bull; AED 12M MORTGAGE</p>
             </div>
-            <!-- Project 2 -->
             <div class="work-card">
                 <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop"
-                    class="project-img" alt="Downtown Apartment">
-                <h3>First-Time Buyer Mortgage for Downtown Apartment</h3>
-                <p class="project-meta">DOWNTOWN DUBAI • AED 2.5M MORTGAGE</p>
+                    alt="Downtown Apartment">
+                <h3 class="heading-sm">First-Time Buyer Mortgage for Downtown Apartment</h3>
+                <p class="work-meta">DOWNTOWN DUBAI &bull; AED 2.5M MORTGAGE</p>
             </div>
-            <!-- Project 3 -->
+            <div class="work-card">
+                <video autoplay loop muted playsinline src="hola.mp4"></video>
+                <h3 class="heading-sm">Commercial Mortgage for Boutique Hotel in Business Bay</h3>
+                <p class="work-meta">BUSINESS BAY &bull; AED 45M MORTGAGE</p>
+            </div>
             <div class="work-card large-span">
                 <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1200&auto=format&fit=crop"
-                    class="project-img large" alt="Dubai Hills Townhouse Interior">
-                <h3>Off-Plan Handover Financing for Dubai Hills Townhouse</h3>
-                <p class="project-meta">DUBAI HILLS ESTATE • AED 4M MORTGAGE</p>
+                    alt="Dubai Hills Townhouse Interior">
+                <h3 class="heading-sm">Off-Plan Handover Financing for Dubai Hills Townhouse</h3>
+                <p class="work-meta">DUBAI HILLS ESTATE &bull; AED 4M MORTGAGE</p>
             </div>
-            <!-- Project 4 -->
-            <div class="work-card large-span">
-                <video autoplay loop muted playsinline src="hola.mp4" class="project-img large"></video>
-                <h3>Commercial Mortgage for Boutique Hotel in Business Bay</h3>
-                <p class="project-meta">BUSINESS BAY • AED 45M MORTGAGE</p>
-            </div>
-            <!-- Project 5 -->
-            <div class="work-card large-span">
-                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
-                    class="project-img large" alt="Emirates Hills Villa">
-                <h3>Equity Release Refinancing for Multiple Property Owner</h3>
-                <p class="project-meta">EMIRATES HILLS • AED 15M EQUITY RELEASE</p>
-            </div>
-            <!-- Project 6 -->
-            <div class="work-card large-span">
-                <img src="https://images.unsplash.com/photo-1577979749830-f1d742b96791?q=80&w=1200&auto=format&fit=crop"
-                    class="project-img large" alt="Arabian Ranches Home">
-                <h3>Buyout/Remortgage Securing Fixed 3.99% Rate</h3>
-                <p class="project-meta">ARABIAN RANCHES • AED 5.5M BUYOUT</p>
-            </div>
-            <!-- Project 7 -->
             <div class="work-card">
-                <video autoplay loop muted playsinline src="hello.mp4" class="project-img"></video>
-                <h3>Golden Visa Eligible Property Investment Financing</h3>
-                <p class="project-meta">DUBAI MARINA • AED 3.2M MORTGAGE</p>
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop"
+                    alt="Emirates Hills Villa">
+                <h3 class="heading-sm">Equity Release Refinancing for Multiple Property Owner</h3>
+                <p class="work-meta">EMIRATES HILLS &bull; AED 15M EQUITY RELEASE</p>
             </div>
-            <!-- Project 8 -->
             <div class="work-card">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop"
-                    class="project-img" alt="Self-Employed Solution">
-                <h3>Self-Employed Mortgage Solution with Minimal Docs</h3>
-                <p class="project-meta">JUMEIRAH GOLF ESTATES • AED 8M MORTGAGE</p>
+                <video autoplay loop muted playsinline src="hello.mp4"></video>
+                <h3 class="heading-sm">Golden Visa Eligible Property Investment Financing</h3>
+                <p class="work-meta">DUBAI MARINA &bull; AED 3.2M MORTGAGE</p>
             </div>
         </div>
     </section>
 
-    <!-- Partners / Logos -->
-    <section class="partners-section">
-        <div class="logos-scroll">
-            <span>EMIRATES NBD</span>
-            <span>FAB</span>
-            <span>MASHREQ</span>
-            <span>ADCB</span>
-            <span>DIB</span>
-            <span>RAKBANK</span>
-            <span>COMMERCIAL BANK OF DUBAI</span>
-            <span>EMIRATES NBD</span>
+    <!-- Marquee -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            EMIRATES NBD ✦ FAB ✦ MASHREQ ✦ ADCB ✦ DIB ✦ RAKBANK ✦ COMMERCIAL BANK OF DUBAI ✦ EMIRATES NBD ✦ FAB ✦
+            MASHREQ ✦ ADCB ✦ DIB ✦ RAKBANK ✦ COMMERCIAL BANK OF DUBAI ✦
         </div>
-    </section>
+    </div>
 
     <!-- Approach Section -->
-    <section class="approach-section">
+    <section class="approach-section container">
         <div class="approach-header">
-            <div class="approach-title">
+            <div>
                 <p class="section-tag">A TAILORED APPROACH</p>
-                <h2>We understand that your financial profile is one-of-a-kind. We adopt a flexible approach, finding
-                    the best bank and rate that fits your specific needs.</h2>
+                <h2 class="heading-md">We understand that your financial profile is one-of-a-kind. We adopt a flexible
+                    approach, finding the best bank and rate that fits your specific needs.</h2>
             </div>
-            <div class="approach-desc">
-                <p>From the first consultation, our team immerses itself in your specific requirements – tracking
-                    current market rates and policy nuances that shape your mortgage approval process.</p>
+            <div style="padding-top: 4rem;">
+                <p style="font-size: 1.25rem; line-height: 1.6;">From the first consultation, our team immerses itself
+                    in your specific requirements – tracking current market rates and policy nuances that shape your
+                    mortgage approval process.</p>
             </div>
         </div>
         <div class="approach-cards">
-            <!-- Card 1 -->
-            <div class="step-card bg-light-green">
+            <div class="step-card card-1">
                 <span class="step-num">01.</span>
                 <h3>Initial Consultation</h3>
                 <p>To develop a clear vision of your property goals, budget, and eligibility based on your income
                     profile.</p>
-                <button class="arrow-btn">→</button>
+                <div class="arrow-btn">&rarr;</div>
             </div>
-            <!-- Card 2 -->
-            <div class="step-card bg-green">
+            <div class="step-card card-2">
                 <span class="step-num">02.</span>
                 <h3>Pre-Approval Strategy</h3>
                 <p>To ensure you're financially ready and have the confidence to negotiate with sellers or developers.
                 </p>
-                <button class="arrow-btn">→</button>
+                <div class="arrow-btn">&rarr;</div>
             </div>
-            <!-- Card 3 -->
-            <div class="step-card bg-salmon">
+            <div class="step-card card-3">
                 <span class="step-num">03.</span>
                 <h3>Property Sourcing & Valuation</h3>
                 <p>To finalize the specific property details, arrange bank valuations, and secure the final offer
                     letter.</p>
-                <button class="arrow-btn">→</button>
+                <div class="arrow-btn">&rarr;</div>
             </div>
-            <!-- Card 4 -->
-            <div class="step-card bg-dark text-white">
+            <div class="step-card card-4">
                 <span class="step-num">04.</span>
                 <h3>Transfer & Handover</h3>
                 <p>To handle everything from DLD transfers to finalize the property registration seamlessly in your
                     name.</p>
-                <button class="arrow-btn">→</button>
-            </div>
-        </div>
-        <div class="approach-gallery">
-            <img class="col-full"
-                src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1200&auto=format&fit=crop"
-                alt="Dubai Architecture Facade">
-            <div class="gallery-split">
-                <img class="col-half"
-                    src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?q=80&w=800&auto=format&fit=crop"
-                    alt="Luxury Details">
-                <img class="col-half"
-                    src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop"
-                    alt="Balcony View">
+                <div class="arrow-btn">&rarr;</div>
             </div>
         </div>
     </section>
 
-    <!-- Large Impact Section with Video Background -->
-    <section class="impact-section">
-        <video class="bg-video" autoplay loop muted playsinline
-            src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-city-buildings-and-skyscrapers-4158-large.mp4"></video>
-        <div class="impact-content text-white">
-            <p class="section-tag">WE HELP TO ACHIEVE GOALS</p>
-            <h2>After more than a decade in Dubai's real estate, we're proud to have processed over AED 5 Billion in
-                mortgages.</h2>
-            <div class="impact-bottom">
-                <p>We've tackled cases of all sizes, from straightforward residential purchases to complex multi-unit
-                    commercial deals, always with the same dedication to exceeding your expectations.</p>
-                <a href="#" class="btn btn-dark-outline text-white">OUR APPROACH</a>
+    <!-- Impact Section -->
+    <section class="impact-section container"
+        style="border-radius: 20px; color: var(--color-white); padding: 5rem; margin-bottom: var(--spacing-section); background-color: var(--color-anthracite);">
+        <p class="section-tag" style="color: var(--color-sage);">WE HELP TO ACHIEVE GOALS</p>
+        <h2 class="heading-md" style="margin-bottom: 4rem; max-width: 900px;">After more than a decade in Dubai's real
+            estate, we're proud to have processed over AED 5 Billion in mortgages.</h2>
+        <div class="impact-grid" style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 2rem;">
+            <div>
+                <a href="#" class="btn btn-outline"
+                    style="border-color: var(--color-white); color: var(--color-white);">OUR APPROACH</a>
+            </div>
+            <div>
+                <p style="font-size: 1.25rem; line-height: 1.6;">We've tackled cases of all sizes, from straightforward
+                    residential purchases to complex multi-unit commercial deals, always with the same dedication to
+                    exceeding your expectations.</p>
             </div>
         </div>
     </section>
 
-    <!-- Services / Unique Design Section -->
-    <section class="services-section">
-        <div class="services-header">
-            <div class="services-title">
+    <!-- Services / Accordion Section -->
+    <section class="services-section container">
+        <div class="services-container">
+            <div>
                 <p class="section-tag">WHAT WE DO</p>
-                <h2>We secure unique financing solutions and offer fresh perspectives on established lending methods for
-                    every client.</h2>
-            </div>
-            <div class="services-desc">
-                <p>Our team leverages its diverse banking backgrounds – in retail, corporate, and private banking – to
-                    give you a clear advantage. Each advisor contributes to making us the strongest mortgage brokerage
-                    in the UAE.</p>
-            </div>
-        </div>
-
-        <div class="services-content">
-            <div class="services-accordion">
-                <div class="accordion-item active">
-                    <button class="accordion-header">- Residential Mortgages</button>
-                    <div class="accordion-body">
-                        <p>By fostering relationships with over 20+ local and international banks, we secure the lowest
-                            possible interest rates and highest loan-to-value ratios for homebuyers.</p>
-                        <p>Whether you're looking for a sprawling villa or an investment apartment, the goal is to make
-                            your property ownership journey affordable and stress-free.</p>
+                <h2 class="heading-md" style="margin-bottom: 4rem;">We secure unique financing solutions and offer fresh
+                    perspectives on established lending methods.</h2>
+                <div class="accordion">
+                    <div class="accordion-item active">
+                        <button class="accordion-header">Residential Mortgages</button>
+                        <div class="accordion-body">
+                            <p>By fostering relationships with over 20+ local and international banks, we secure the
+                                lowest possible interest rates and highest loan-to-value ratios for homebuyers. Whether
+                                you're looking for a sprawling villa or an investment apartment, the goal is to make
+                                your property ownership journey affordable and stress-free.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Non-Resident Mortgages</button>
+                        <div class="accordion-body">
+                            <p>Specialized programs for foreign investors looking to capitalize on Dubai real estate
+                                with up to 60-80% LTV options available.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Commercial Mortgages</button>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Refinancing & Buyouts</button>
                     </div>
                 </div>
-                <div class="accordion-item"><button class="accordion-header">+ Non-Resident Mortgages</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Commercial Mortgages</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Refinancing & Buyouts</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Equity Release</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Land & Construction</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Golden Visa Financing</button></div>
-                <div class="accordion-item"><button class="accordion-header">+ Private Banking Solutions</button></div>
             </div>
-            <div class="services-image">
+            <div>
                 <img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=800&auto=format&fit=crop"
-                    class="tall-img" alt="Luxury Villa Pool">
+                    class="service-img" alt="Luxury Villa Pool">
             </div>
         </div>
     </section>
 
     <!-- Testimonial Section -->
-    <section class="testimonial-section">
-        <div class="testimo-image">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
-                class="person-img" alt="Ahmad Al Fayed">
-        </div>
-        <div class="testimo-content">
-            <p>We manage every mortgage from the early pre-approval phases to final transfer, whether it's an off-plan
-                handover, secondary market purchase, or equity release. From the first call, our team immerses itself in
-                your financial profile to secure the best possible terms.</p>
-            <p>In close collaboration with our partner banks, we manage every application from the initial submission to
-                the final disbursement. Together, we offer a comprehensive level of financial expertise that spans the
-                full breadth of UAE lending policies.</p>
-
-            <blockquote class="quote">
+    <section class="testimonial-section container">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
+            class="testi-image" alt="Ahmad Al Fayed">
+        <div>
+            <p class="section-tag">FOUNDER'S NOTE</p>
+            <div class="testi-quote">
                 "We start by uncovering the essential elements of your financial goals to guide our process. We use four
                 main steps to steer the work, built on a foundation of transparency, speed, and iterative feedback to
                 ensure successful approvals."
-            </blockquote>
-            <p class="author">Managing Director<br>Ahmad Al Fayed</p>
-        </div>
-    </section>
-
-    <!-- Solutions / Tomorrow Section -->
-    <section class="solutions-section bg-salmon">
-        <div class="solutions-top">
-            <div class="col-left">
-                <p class="section-tag">WATCH OUR LATEST WEBINAR</p>
-                <button class="play-btn">Play</button>
             </div>
-            <div class="col-middle">
-                <p class="section-tag">NEXT RATE CUT:<br>EXPECTED MAR 2026</p>
-            </div>
-            <div class="col-right">
-                <h2>SOLUTIONS FOR TODAY, RATES FOR TOMORROW</h2>
-                <div class="btn-group align-right">
-                    <a href="#" class="btn btn-outline-dark">OUR SERVICES</a>
-                    <a href="#" class="btn btn-dark">APPLY NOW</a>
-                </div>
-            </div>
+            <div class="testi-author">Ahmad Al Fayed<br><span style="color:var(--text-muted); font-weight:500;">Managing
+                    Director</span></div>
         </div>
-
-        <div class="solutions-stats">
-            <div class="stat-box">
-                <span class="stat-num">15+</span>
-                <span class="stat-title">years of market experience</span>
-                <p>Our industry-leading mortgage advisors are dedicated to bringing your property dreams to life.</p>
-            </div>
-            <div class="stat-box">
-                <span class="stat-num">5000+</span>
-                <span class="stat-title">mortgages successfully approved</span>
-                <p>From initial pre-approval to final DLD transfer, we've successfully delivered over 5000 mortgages.
-                </p>
-            </div>
-            <div class="stat-box">
-                <span class="stat-num">25+</span>
-                <span class="stat-title">partner banks in the UAE</span>
-                <p>Our wide network guarantees you access to the most competitive rates and policies.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Text Marquee -->
-    <div class="marquee-section">
-        <div class="marquee-text">
-            <span>Dubai Land Department ✦ Emaar ✦ Nakheel ✦ Damac ✦ Meraas ✦ Dubai Properties ✦ Sobha ✦</span>
-            <!-- Duplicate for continuous flow -->
-            <span>Dubai Land Department ✦ Emaar ✦ Nakheel ✦ Damac ✦ Meraas ✦ Dubai Properties ✦ Sobha ✦</span>
-        </div>
-    </div>
-
-    <!-- Featured Project Testimonial Slider  -->
-    <section class="featured-slider">
-        <img src="https://images.unsplash.com/photo-1526626573887-f83a216e4511?q=80&w=1600&auto=format&fit=crop"
-            class="full-bg-image" alt="Dubai Sunset Over The Palm">
-        <div class="slider-content text-white">
-            <p class="section-tag">CLIENT FEEDBACK</p>
-            <h2>Perfectly blending deep financial expertise with incredible customer service. The attention to detail
-                during the bank negotiations was remarkable. We can't recommend them highly enough for anyone looking to
-                secure a Dubai mortgage.</h2>
-            <p class="author">Sarah Jenkins<br>Investor, UK</p>
-            <div class="slider-controls">
-                <span>1 — 3</span>
-                <button>&larr;</button>
-                <button>&rarr;</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Recent Insights Section -->
-    <section class="insights-section">
-        <div class="section-header">
-            <h2>Market Insights</h2>
-            <div class="stats">
-                <span>(124)</span>
-                <span>2020-2026</span>
-            </div>
-            <a href="#" class="btn btn-dark">READ ALL</a>
-        </div>
-
-        <div class="insights-grid">
-            <article class="post-card">
-                <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=600&auto=format&fit=crop"
-                    class="post-img" alt="Dubai Economy Data">
-                <p class="post-meta">MARCH 10, 2026 • 5 MIN READ</p>
-                <h3>EIBOR Fluctuations: How Central Bank Rates Affect Your Mortgage</h3>
-                <p>Dive into the powerful, yet often misunderstood, role of EIBOR in UAE mortgages. This post goes
-                    beyond the basics to help you choose between fixed and variable...</p>
-                <div class="tags">
-                    <span class="tag">GUIDES</span>
-                    <span class="tag">MARKET</span>
-                </div>
-            </article>
-            <article class="post-card">
-                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=600&auto=format&fit=crop"
-                    class="post-img" alt="Villa Exterior">
-                <p class="post-meta">MARCH 05, 2026 • 4 MIN READ</p>
-                <h3>Non-Resident Mortgages in Dubai: A Complete Step-by-Step Guide</h3>
-                <p>Buying property from abroad is easier than ever. This post explores the LTV limits, required
-                    documentation, and specific banks that cater to international investors...</p>
-                <div class="tags">
-                    <span class="tag">INVESTORS</span>
-                    <span class="tag">GUIDES</span>
-                </div>
-            </article>
-            <article class="post-card">
-                <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=600&auto=format&fit=crop"
-                    class="post-img" alt="Property Contract">
-                <p class="post-meta">FEBRUARY 28, 2026 • 6 MIN READ</p>
-                <h3>The True Cost of Buying Property in Dubai: Hidden Fees Explained</h3>
-                <p>Explore the DLD fees, trustee fees, agency commissions, and mortgage origination costs. This post
-                    breaks down the upfront cash you actually need to buy a home...</p>
-                <div class="tags">
-                    <span class="tag">BUYERS</span>
-                    <span class="tag">CALCULATIONS</span>
-                </div>
-            </article>
-            <article class="post-card">
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop"
-                    class="post-img" alt="Dubai Downtown Skyscrapers">
-                <p class="post-meta">FEBRUARY 15, 2026 • 4 MIN READ</p>
-                <h3>When Should You Consider Refinancing Your Dubai Mortgage?</h3>
-                <p>Discover the core principles behind a successful buyout or equity release. This post explores how
-                    changing property valuations and dropping interest rates create opportunities...</p>
-                <div class="tags">
-                    <span class="tag">REFINANCE</span>
-                    <span class="tag">STRATEGY</span>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- Contact Banner -->
-    <section class="contact-banner">
-        <p class="section-tag">WE WOULD LOVE TO HEAR FROM YOU</p>
-        <div class="banner-content">
-            <h2 class="huge-text">GET IN TOUCH</h2>
-            <p class="banner-desc">Tell us about your property goals. Let's find the best mortgage for your needs.</p>
-            <a href="#" class="btn btn-dark">APPLY NOW</a>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <section class="map-section">
-        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1600&auto=format&fit=crop"
-            class="map-img" alt="Dubai aerial map view">
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-top">
-            <div class="footer-col col-call">
-                <h4>CALL US</h4>
-                <p>+971 4 390 0000</p>
+        <div class="container">
+            <h2 class="footer-huge-cta">SAY HI.</h2>
+            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1600&auto=format&fit=crop"
+                class="footer-map" alt="Map">
 
-                <h4>HEAD OFFICE</h4>
-                <p>Boulevard Plaza Tower 1<br>Level 14, Downtown Dubai<br>Dubai, United Arab Emirates<br><a href="#">Get
-                        Directions</a></p>
+            <div class="footer-grid">
+                <div>
+                    <h4>ADDRESS</h4>
+                    <p>Boulevard Plaza Tower 1</p>
+                    <p>Level 14, Downtown Dubai</p>
+                    <p>Dubai, UAE</p>
+                    <a href="#" style="text-decoration: underline; margin-top:1rem; display:inline-block;">Get
+                        Directions</a>
+                </div>
+                <div>
+                    <h4>GENERAL ENQUIRIES</h4>
+                    <p>+971 4 390 0000</p>
+                    <p>info@dubaimortgages.com</p>
+                </div>
+                <div>
+                    <h4>FOLLOW US</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>STAY IN THE LOOP</h4>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Email address">
+                    </form>
+                    <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4);">By sending this message, I agree that
+                        the data provided may be processed and used for the purpose of sending the newsletter. I may at
+                        any time revoke my consent.</p>
+                </div>
             </div>
 
-            <div class="footer-col col-links">
-                <h4>GENERAL ENQUIRIES</h4>
-                <p><a href="mailto:info@dubaimortgages.com">info@dubaimortgages.com</a></p>
-
-                <h4>PARTNER WITH US</h4>
-                <p><a href="mailto:partners@dubaimortgages.com">partners@dubaimortgages.com</a></p>
-
-                <h4>FOLLOW US</h4>
-                <ul>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col col-newsletter">
-                <h4>STAY IN THE LOOP</h4>
-                <p>Sign up to stay in the loop!</p>
-                <form class="footer-form">
-                    <input type="email" placeholder="Email address">
-                    <button type="submit">SIGN UP NOW</button>
-                </form>
-                <label class="consent-label">
-                    <input type="checkbox">
-                    By sending this message, I agree that the data provided may be processed and used for the purpose of
-                    sending the newsletter. I may at any time revoke my consent. Data protection.
-                </label>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <button class="scroll-top">↑ Scroll to top</button>
-            <div class="copyright">
-                <p>© 2026 Dubai Mortgages. All rights reserved | <a href="#">LIC NO: 123456</a></p>
-                <p><a href="#">Security</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-            </div>
-            <div class="theme-switcher">
-                <button class="light-btn active">☼</button>
-                <button class="dark-btn">☾</button>
+            <div
+                style="display:flex; justify-content:space-between; margin-top:4rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top:2rem; font-size: 0.9rem; color: rgba(255,255,255,0.5);">
+                <p>© 2026 Dubai Mortgages. All rights reserved.</p>
+                <p>Security | Privacy Policy | Terms of Service</p>
             </div>
         </div>
     </footer>
