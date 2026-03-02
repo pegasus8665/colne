@@ -44,15 +44,15 @@
     </section>
 
     <!-- Introduce / About Info Section -->
-    <section class="intro-section">
+    <section class="intro-section" id="services">
         <div class="container intro-grid">
-            <div class="intro-text">
+            <div class="intro-text reveal">
                 <p class="section-tag">WE NAVIGATE THE MARKET FOR YOU</p>
                 <h2 class="heading-md">Dubai Mortgages is a premier independent advisory firm partnering with the Top 20
                     UAE banks to secure unparalleled financing terms for your primary home or investment portfolio.</h2>
                 <div class="intro-buttons">
-                    <a href="#" class="btn btn-dark">OUR SERVICES</a>
-                    <a href="#" class="btn btn-outline">GET PRE-APPROVED</a>
+                    <a href="#services" class="btn btn-dark smooth-scroll">OUR SERVICES</a>
+                    <a href="#contact" class="btn btn-outline smooth-scroll">GET PRE-APPROVED</a>
                 </div>
             </div>
             <div class="intro-details">
@@ -112,13 +112,58 @@
     </section>
 
     <!-- Marquee -->
-    <div class="marquee-container">
+    <div class="marquee-container reveal">
         <div class="marquee-content">
             ZERO HIDDEN FEES ✦ EXCLUSIVE BANK RATES ✦ PRE-APPROVAL IN 48 HOURS ✦ NON-RESIDENT SPECIALISTS ✦ DEDICATED
             VIP SERVICE ✦ ZERO HIDDEN FEES ✦ EXCLUSIVE BANK RATES ✦ PRE-APPROVAL IN 48 HOURS ✦ NON-RESIDENT SPECIALISTS
             ✦ DEDICATED VIP SERVICE ✦
         </div>
     </div>
+
+    <!-- Premium Gallery -->
+    <section class="premium-gallery container">
+        <div class="section-header reveal">
+            <h2 class="heading-sm">Exclusive Dubai Locations</h2>
+            <div class="section-tag" style="margin-bottom:0;">PREMIUM PORTFOLIO</div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item item-large reveal">
+                <img src="https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=1200&auto=format&fit=crop"
+                    alt="Dubai Marina View">
+                <div class="gallery-overlay">
+                    <h4>DUBAI MARINA</h4>
+                </div>
+            </div>
+            <div class="gallery-item item-tall reveal">
+                <img src="https://images.unsplash.com/photo-1546412414-8035e1776c9a?q=80&w=800&auto=format&fit=crop"
+                    alt="Burj Khalifa Downtown">
+                <div class="gallery-overlay">
+                    <h4>DOWNTOWN DUBAI</h4>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?q=80&w=800&auto=format&fit=crop"
+                    alt="Palm Jumeirah Luxury">
+                <div class="gallery-overlay">
+                    <h4>PALM JUMEIRAH</h4>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=800&auto=format&fit=crop"
+                    alt="Dubai Hills">
+                <div class="gallery-overlay">
+                    <h4>DUBAI HILLS</h4>
+                </div>
+            </div>
+            <div class="gallery-item item-wide reveal">
+                <img src="https://images.unsplash.com/photo-1551882547-ff40c0d129df?q=80&w=1200&auto=format&fit=crop"
+                    alt="Business Bay">
+                <div class="gallery-overlay">
+                    <h4>BUSINESS BAY</h4>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Approach Section -->
     <section class="approach-section container">
@@ -168,14 +213,14 @@
     </section>
 
     <!-- Impact Section -->
-    <section class="impact-section container"
+    <section class="impact-section container reveal"
         style="border-radius: 20px; color: var(--color-white); padding: 5rem; margin-bottom: var(--spacing-section); background-color: var(--color-anthracite);">
         <p class="section-tag" style="color: var(--color-sage);">TRUSTED BY GLOBAL INVESTORS</p>
         <h2 class="heading-md" style="margin-bottom: 4rem; max-width: 900px;">With over 15 years of deep local banking
             expertise, we have successfully orchestrated over AED 5 Billion in UAE property financing.</h2>
         <div class="impact-grid" style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 2rem;">
             <div>
-                <a href="#" class="btn btn-outline"
+                <a href="#contact" class="btn btn-outline smooth-scroll"
                     style="border-color: var(--color-white); color: var(--color-white);">OUR EXPERTISE</a>
             </div>
             <div>
@@ -187,7 +232,7 @@
     </section>
 
     <!-- Services / Accordion Section -->
-    <section class="services-section container">
+    <section class="services-section container reveal">
         <div class="services-container">
             <div>
                 <p class="section-tag">COMPREHENSIVE LENDING SOLUTIONS</p>
@@ -195,7 +240,9 @@
                     traditional retail banks simply cannot offer directly.</h2>
                 <div class="accordion">
                     <div class="accordion-item active">
-                        <button class="accordion-header">Residential Mortgages</button>
+                        <button class="accordion-header"
+                            data-image="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=800&auto=format&fit=crop">Residential
+                            Mortgages</button>
                         <div class="accordion-body">
                             <p>Unlock the highest Loan-to-Value (LTV) ratios available in the market—up to 80% for UAE
                                 Nationals and 80% for Expats on their first property. We negotiate aggressively to
@@ -204,7 +251,9 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-header">Non-Resident & Expat Finance</button>
+                        <button class="accordion-header"
+                            data-image="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop">Non-Resident
+                            & Expat Finance</button>
                         <div class="accordion-body">
                             <p>We specialize in sourcing financing for investors living outside the UAE. Relying on
                                 foreign income, tax returns, and international credit reports, we can secure up to
@@ -213,7 +262,9 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-header">Commercial Mortgages</button>
+                        <button class="accordion-header"
+                            data-image="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop">Commercial
+                            Mortgages</button>
                         <div class="accordion-body">
                             <p>Scale your business footprint with dedicated lending facilities for warehouses, office
                                 floors, retail spaces, and staff accommodations. We structure commercial loans tailored
@@ -222,7 +273,9 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-header">Strategic Refinancing & Buyouts</button>
+                        <button class="accordion-header"
+                            data-image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop">Strategic
+                            Refinancing & Buyouts</button>
                         <div class="accordion-body">
                             <p>Trapped in an expensive variable rate? We facilitate seamless mortgage transfers between
                                 banks (buyouts) to lock in lower interest rates. We also specialize in Equity Release,
@@ -234,7 +287,7 @@
             </div>
             <div>
                 <img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=800&auto=format&fit=crop"
-                    class="service-img" alt="Luxury Villa Pool">
+                    class="service-img" id="dynamic-service-image" alt="Luxury Villa Pool">
             </div>
         </div>
     </section>
@@ -257,9 +310,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
-            <h2 class="footer-huge-cta">APPLY NOW.</h2>
+            <h2 class="footer-huge-cta reveal">APPLY NOW.</h2>
             <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1600&auto=format&fit=crop"
                 class="footer-map" alt="Map">
 
